@@ -1,0 +1,9 @@
+<!--pages/detial.wxml-->
+<view class="container">
+  <view>
+    <text>{{ content }}</text>
+  </view>
+
+
+</view>
+

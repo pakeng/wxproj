@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#ccc",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "详细页面",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light",
+  "enablePullDownRefresh": true
+}
