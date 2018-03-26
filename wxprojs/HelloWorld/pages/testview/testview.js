@@ -1,29 +1,18 @@
-// pages/detial.js
-var posts = require('../../Entities/testData.js')
-
+// pages/testview/testview.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    title : "这是标题",
-    content: "这是内容",
-    post : posts
+  
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    this.setData({
-      content: 'LOVE　ＹＯＵ　ＹＹ　^_^　！'
-      })
-    console.log(posts);
-    this.setData({
-      post: posts.PostList
-    })
-
+  
   },
 
   /**
@@ -37,7 +26,7 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+  
   },
 
   /**
@@ -58,7 +47,7 @@ Page({
    * 页面相关事件处理函数--监听用户下拉动作
    */
   onPullDownRefresh: function () {
-    console.log("Hello");
+  
   },
 
   /**
@@ -73,10 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
   
-  },
-
-  onItemClick: function(event){
-    console.log("clicked Item id =  " + event.currentTarget.dataset.id);
   }
-
 })

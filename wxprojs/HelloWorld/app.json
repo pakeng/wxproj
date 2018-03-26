@@ -1,8 +1,11 @@
 {
   "pages": [
+    
     "pages/index/index",
     "pages/logs/logs",
-    "pages/detial/detial"
+    "pages/detial/detial",
+    "pages/posts/post",
+    "pages/testview/testview"
   ],
   "window": {
     "backgroundTextStyle": "light",

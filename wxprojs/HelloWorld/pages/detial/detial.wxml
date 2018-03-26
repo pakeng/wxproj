@@ -1,9 +1,29 @@
 <!--pages/detial.wxml-->
-<view class="container">
-  <view>
-    <text>{{ content }}</text>
-  </view>
-
-
+<view class="mcontainer">
+<view class='header'>
+  <text class='title'> 最近文章 </text>
+</view>
+ <scroll-view clase="content" scroll-y bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+ <block wx:for="{{post}}" wx:key="id">
+      <view class='full_screen_container' bindtap='onItemClick' data-id='{{item.id}}'>
+        <view class='item_with_bottom_border'>
+          <image class='item_img'></image>
+          <view class='title_text_container'>
+            <view class='title_content'>
+              <text>{{item.title}}</text>
+              <text class='desc_date'>{{item.date}}</text>
+            </view>
+              <view class='desc_container'>
+                  <text class='desc_content'> 这是描述主题1234567890</text>
+                  
+              </view>
+            </view>
+        </view>
+      </view>
+    </block>
+  </scroll-view>
+<view class='header'>
+  <text class='title'> 最近文章 </text>
+</view>
 </view>
 

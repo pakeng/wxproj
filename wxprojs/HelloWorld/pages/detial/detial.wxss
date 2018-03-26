@@ -1,1 +1,83 @@
 /* pages/detial.wxss */
+
+.mcontainer {
+  margin: 0px;
+}
+
+.content {
+  margin: 0px;
+  width: 90%;
+  background-color: red;
+}
+
+.full_screen_container {
+    width: 95%;
+    margin: 1px 1px 1px 5px;
+    height: 70px;
+    background-color: #eee;
+    padding: 2px 0px 0px 5px;
+    border-width: 1px;
+    border-color: grey;
+    border-bottom-style: solid;
+}
+
+.item_with_bottom_border {
+      width: 95%;
+      margin-top: 5px;
+      border-width: 2px;
+}
+
+.item_img {
+  height: 50px;
+  width: 70px;
+  margin-left: 2px;
+  background: greenyellow;
+  align-items: center;
+}
+
+.title_text_container {
+  width: 70%;
+  margin-top: 2px;
+  margin-left: 10px;
+  display : inline-block;
+  vertical-align: top;
+  /* background-color: #fff; */
+}
+
+.title_content {
+  font-size: 15px;
+  color: black;
+  text-shadow: #ccc 1px 1px;
+  align-content: center;
+
+}
+
+.desc_content {
+    display : inline-block;
+    font-size: 12px;
+    margin-top: 8px;
+    color: #ccc;
+}
+
+.desc_container {
+  display : inline;
+}
+
+.desc_date {
+  text-shadow: #ccc 0px 0px;
+  margin: 2px 5px 0px 0px;
+  float: right;
+  font-size: 10px;
+  color: #ccc;
+}
+
+.header {
+  margin: 10px;
+  text-align: center;
+}
+
+.title {
+ font-size: 20px;
+ color: black;
+ text-shadow: #ccc 1px 1px; 
+}

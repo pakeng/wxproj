@@ -1,0 +1,17 @@
+<!--pages/testview/testview.wxml-->
+<view class='full_screen_container'>
+<view class='item_with_bottom_border'>
+  <image class='item_img'></image>
+  <view class='title_text_container'>
+    <view class='title_content'>
+      <text>这是标题！！</text>
+      <text class='desc_date'>2018年3月26日</text>
+    </view>
+      
+      <view class='desc_container'>
+          <text class='desc_content'> 这是描述主题1234567890</text>
+          
+      </view>
+    </view>
+</view>
+</view>
