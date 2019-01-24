@@ -1,8 +1,67 @@
-.log-list {
-  display: flex;
-  flex-direction: column;
-  padding: 40rpx;
+.wrap {
+  width: 100%;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
 }
-.log-item {
-  margin: 10rpx;
+
+.header {
+  position: relative;
+  height: 90rpx;
+  line-height: 90rpx;
+  text-align: center;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+  background: #ffeb3b;
+}
+
+.date-item {
+  display: inline-block;
+  width: 14%;
+  height: 100%;
+  color: #fff;
+}
+.date-normal {
+  display: inline-block;
+  width: 14%;
+  height: 100%;
+  color: #212121;
+}
+
+.date-disable {
+  display: inline-block;
+  width: 14%;
+  height: 100%;
+  background: #bdbdbd;
+  color: #fcfcfc;
+}
+
+.date-selected {
+  display: inline-block;
+  text-align: center;
+  width: 14%;
+  height: 100%;
+  background: #ff4081;
+  color: #fcfcfc;
+}
+
+.date-selected2 {
+  display: inline-block;
+  text-align: center;
+  width: 14%;
+  height: 100%;
+  background: greenyellow;
+  color: #fcfcfc;
+}
+
+.date-box {
+  width: 100%;
+  box-sizing: border-box;
+  background: #fff9c4;
+  padding: 10rpx;
+  align-content: center;
+  text-align: center;
 }

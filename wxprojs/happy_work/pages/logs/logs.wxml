@@ -1,6 +1,13 @@
 <!--logs.wxml-->
-<view class="container log-list">
-  <block wx:for="{{logs}}" wx:for-item="log">
-    <text class="log-item">{{index + 1}}. {{log}}</text>
-  </block>
+<view class="wrap">
+  <view class='header'>
+    <view class='date-item' wx:for="{{date}}">{{item}}</view>
+  </view>
+  <view class='date-box'>
+    <block  wx:for='{{dateArr}}'>
+      <view class='date-normal' bindtap='day_click' data-day="{{item.value}}" wx:if="{{item.type == 0}}">{{item.value}}</view>
+      <view class='date-selected' bindtap='day_click' data-day="{{item.value}}" wx:if="{{item.type == 1}}">{{item.value}}</view>
+      <view class='date-selected2' bindtap='day_click' data-day="{{item.value}}" wx:if="{{item.type == 2}}">{{item.value}}</view>
+    </block>
+  </view>
 </view>
