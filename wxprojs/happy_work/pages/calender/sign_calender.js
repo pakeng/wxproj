@@ -22,27 +22,24 @@ Page({
   },
   day_click: function(e) {
     let day = e.currentTarget.dataset['day'];
-    console.log("day = " + day);
   },
   dye: function (dateTable) {
     let date = new Date();
     let prx = date.getFullYear() + "_" + date.getMonth();
     let records = wx.getStorageSync(constants.RECORD_NAME + prx) || []
-    console.log("record lenth =  " + records.length);
     if (records.length == 0) {
       return;
     }
     let j = 0;
     for (let i = records[j].day; i < 35 && j < records.length; i++) {
-      console.log("record j = " + j+ "--i = "+ i);
       if (dateTable[i].value != '') {
         if (dateTable[i].value == records[j].day) {
-          console.log("record dye " + j+"  i"+i);
           dateTable[i].type+=1;
           j++;
           if (j < records.length && dateTable[i].value == records[j].day) {
-            console.log("record dye2 " + j + "  i" + i);
-            dateTable[i].type += 1;
+            if (new Date(records[j].date).getHours()>=18){
+              dateTable[i].type += 1;
+            }
             j++;
           }
         }
