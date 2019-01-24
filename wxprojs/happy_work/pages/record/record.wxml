@@ -1,0 +1,6 @@
+<!--pages/record/record.wxml-->
+<view class="container record-list">
+  <block wx:for="{{records}}" wx:for-item="record">
+    <text class="record-item">{{index + 1}}. {{record}}</text>
+  </block>
+</view>

@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/record/record",
+    "pages/sign/sign"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffeb3b",
+    "navigationBarTitleText": "开心上班",
+    "navigationBarTextStyle": "black"
+  }
+}
