@@ -1,14 +1,13 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/record/record",
+    "pages/calender/sign_calender",
     "pages/sign/sign"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fbc02d",
     "navigationBarTitleText": "开心上班",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "white"
   }
 }

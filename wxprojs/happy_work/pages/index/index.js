@@ -12,7 +12,7 @@ Page({
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
-      url: '../logs/logs'
+      url: '../calender/sign_calender'
     })
   },
   go_sign: function(){
@@ -25,7 +25,7 @@ Page({
   go_record: function(){
     console.log("go_record")
     wx.navigateTo({
-      url: '../record/record',
+      url: '../calender/sign_calender',
     })
   },
   onLoad: function () {
